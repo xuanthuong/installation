@@ -11,7 +11,13 @@ sudo easy_install gevent
 
 `sudo apt-get install build-essential libssl-dev libffi-dev python3-dev`
 
+https://stackoverflow.com/questions/7475223/mysql-config-not-found-when-installing-mysqldb-python-interface
+
+`sudo apt-get install mysql-server`
+`sudo apt-get install libmysqlclient-dev`
+
 2. tried but not working
+
 `sudo apt-get install python-mysqldb`
 `sudo apt-get install MySQL-python`
 `sudo apt-get install mysql-client`
