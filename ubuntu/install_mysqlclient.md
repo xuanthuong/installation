@@ -14,6 +14,7 @@ sudo easy_install gevent
 https://stackoverflow.com/questions/7475223/mysql-config-not-found-when-installing-mysqldb-python-interface
 
 `sudo apt-get install mysql-server`
+
 `sudo apt-get install libmysqlclient-dev`
 
 2. tried but not working
