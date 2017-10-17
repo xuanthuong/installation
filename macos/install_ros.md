@@ -9,3 +9,7 @@
   Solved: `brew install poco`
   Refer to: https://answers.ros.org/question/110511/class_loader-poco-error/ && https://qiita.com/YoitsuKamijo/items/246683401e08d785a6ce
   
+  3. Error: The imported target "Qt5::Core" references the file ros
+  
+  Solved: `brew link --force qt5 && ln -s /usr/local/Cellar/qt5/5.4.0/mkspecs /usr/local/mkspecs && ln -s /usr/local/Cellar/qt5/5.4.0/plugins /usr/local/plugins`
+  Refer: https://github.com/Homebrew/legacy-homebrew/issues/29938
