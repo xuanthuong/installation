@@ -13,3 +13,5 @@
   
   Solved: `brew link --force qt5 && ln -s /usr/local/Cellar/qt5/5.4.0/mkspecs /usr/local/mkspecs && ln -s /usr/local/Cellar/qt5/5.4.0/plugins /usr/local/plugins`
   Refer: https://github.com/Homebrew/legacy-homebrew/issues/29938
+
+4. Problem with GCC6, `#include_next <stdlib.h>` -> `#include <stdlib.h>`
