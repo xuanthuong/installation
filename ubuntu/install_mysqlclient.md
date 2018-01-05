@@ -1,6 +1,9 @@
 1. unable to execute 'x86_64-linux-gnu-gcc': No such file or directory
 fix: https://stackoverflow.com/questions/26053982/error-setup-script-exited-with-error-command-x86-64-linux-gnu-gcc-failed-wit
-
+* Solved:
+```
+sudo apt-get install build-essential autoconf libtool pkg-config python3-dev
+```
 ```
 sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libssl-dev
 
